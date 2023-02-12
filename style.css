@@ -1,0 +1,67 @@
+.kontakt {
+    line-height: 1.4;
+    max-width: 800px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+label {
+    vertical-align: middle;
+    margin-bottom: 4px;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+}
+
+input {
+    color: #1d1d1d;
+    background-color: #efefef;
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+textarea:not([rows]) {
+    min-height: 40px;
+    height: 140px;
+}
+
+textarea:not([cols]) {
+    width: 100%;
+}
+
+textarea {
+    display: block;
+    margin-right: 0;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    color: #1d1d1d;
+    background-color: #efefef;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: rgb(110, 155, 232);
+}
